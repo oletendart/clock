@@ -3,6 +3,9 @@
 const secondHand = document.querySelector(".second-hand");
 const minHand = document.querySelector(".min-hand");
 const hourHand = document.querySelector(".hour-hand");
+const displayHour = document.querySelector(".display-hour");
+
+function returnTime() {}
 
 function setDate() {
   const now = new Date();
